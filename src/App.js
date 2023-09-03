@@ -1,14 +1,10 @@
 import './App.css';
-import Header from'../src/components/header/Header';
-import Body from '../src/components/body/Body';
-import Footer from '../src/components/footer/Footer';
+import MainComponent from './components/MainComponent';
 
 function App() {
   return (
     <div className="App">
-      <Header/>
-      <Body />
-      <Footer />
+        <MainComponent />
     </div>
   );
 }
